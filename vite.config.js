@@ -34,7 +34,7 @@ function getInputs() {
 export default defineConfig({
   // Базовий шлях для GitHub Pages (ім'я репозиторію)
   // Змініть 'your-repo-name' на реальну назву вашого репозиторію
-  base: '/your-repo-name/',
+  base: '/baba-cook/',
   
   build: {
     outDir: 'dist',
