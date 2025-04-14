@@ -23,7 +23,7 @@ export async function getRecipes() {
               <div class="card-body">
                 <h5 class="card-title">${recipe.title}</h5>
                 <p class="card-text">${recipe.description}</p>
-                <a href="#" class="btn btn-primary mt-auto">Детальніше</a>
+                <a href="pages/ВсіРецепти/" class="btn btn-primary mt-auto">Детальніше</a>
               </div>
             </div>
           </div>
