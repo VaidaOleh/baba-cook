@@ -1,4 +1,4 @@
-import"./modulepreload-polyfill-B5Qt9EMX.js";async function i(){try{const n=await(await fetch("recipes.json")).json(),e=document.getElementById("top-cards"),c=[];for(;c.length<4;){const t=Math.floor(Math.random()*20);c.includes(t)||c.push(t)}const o=c.map(t=>{const s=n[t];return`
+import"./navigation-DLny_DlZ.js";async function i(){try{const n=await(await fetch("recipes.json")).json(),e=document.getElementById("top-cards"),c=[];for(;c.length<4;){const t=Math.floor(Math.random()*20);c.includes(t)||c.push(t)}const o=c.map(t=>{const s=n[t];return`
           <div class="col-12 col-sm-12 col-md-6 col-lg-3 card-container">
             <div class="card">
               <img src="${s.image}" class="card-img-top" alt="Зображення рецепту" />
